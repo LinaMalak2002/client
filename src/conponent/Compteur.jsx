@@ -12,7 +12,7 @@ const rest= () => {
 return(
     <div>
         <p>compteur:{compteur}</p>
-        <button onClick={incrementer}>Click</button>
+        <button onClick={incrementer}>Click ici</button>
         <button onClick={rest}>reset </button>
     </div>
 )
