@@ -3,7 +3,7 @@ import { useState } from "react"
 function Compteur(){
     const [compteur,setcompteur]=useState(0)
     const incrementer = ()=> {
-        setcompteur(compteur+1);
+        setcompteur(compteur+3);
     }
 const rest= () => {
     setcompteur(0);
